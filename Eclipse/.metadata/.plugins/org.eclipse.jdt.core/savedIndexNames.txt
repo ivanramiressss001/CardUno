@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Programacion\Java\Constr.Evoluc.Software\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+2627657950.index
+1496666497.index
+3575078013.index
+479223233.index
+1865797976.index
