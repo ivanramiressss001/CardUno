@@ -48,8 +48,3 @@ Diagrama UML
    - García Quintero Ángel Antonio  
    - Pérez Copado Carmen Andrea  
    - Ramírez Gallardo Iván Enrique
- 
-
-  Diagrama UML
-
-![Diagrama UML](DOCUMENTACION/UML_V3.png)
