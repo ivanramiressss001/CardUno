@@ -33,7 +33,14 @@ Estructura del repositorio
 
 Diagrama UML
 
+- v2
 <img width="1140" height="1097" alt="image" src="https://github.com/user-attachments/assets/82a681c6-e336-4321-be0c-35d9d40b3bad" />
+
+
+
+- v3
+![Diagrama](https://github.com/user-attachments/assets/7192b1cb-340f-4a19-96d9-f77266b87ecf)
+
 
 
  
