@@ -27,9 +27,9 @@ Estructura del repositorio
 - Eclipse -----> Archivos de entorno de desarrollo
 - JUEGO_DE_CARTAS_VERS2 --------> Codigo de la version 2
 - JUEGO_DE_CARTAS_VERS3 --------> Codigo de la version 3
-- JUEGO_DE_CARTAS_VERS3 --------> src/JUEGO_CARTAS_VERS4: Contiene el código fuente con la lógica del motor de juego y las entidades (Cartas, Jugadores, Reglas).
-                           |-----------------> Test/TestCompleto: Incluye PruebasUno.java con las validaciones de JUnit que aseguran que el juego sea estable y libre de errores lógicos
-                           |-------------> doc/: Carpeta autogenerada que contiene la API técnica del proyecto. Para visualizarla, abre el archivo index.html en cualquier navegador
+- JUEGO_DE_CARTAS_VERS4 --------> src/JUEGO_CARTAS_VERS4: Contiene el código fuente con la lógica del motor de juego y las entidades (Cartas, Jugadores, Reglas).
+       JUEGO_DE_CARTAS_VERS4-----------------> Test/TestCompleto: Incluye PruebasUno.java con las validaciones de JUnit que aseguran que el juego sea estable y libre de errores lógicos
+             JUEGO_DE_CARTAS_VERS4-------------> doc/: Carpeta autogenerada que contiene la API técnica del proyecto. Para visualizarla, abre el archivo index.html en cualquier navegador
 
   Caracteristicas
   - Juego de consola
