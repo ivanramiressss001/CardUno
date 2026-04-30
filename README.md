@@ -15,6 +15,11 @@ Evolucion del proyecto
    - Sistema de turnos dinamicos
    - Mejor organizacion del codigo
    - Base para la inteligencia artificial basica
+
+- Version 4
+  - Documentación Técnica Profesional: Implementación integral del estándar Javadoc en todas las clases y métodos del sistema, eliminando las 34 advertencias de compilación previas
+  - Cero Deuda Técnica: Refactorización de constructores y firmas de métodos para garantizar una arquitectura limpia y comprensible para futuros desarrolladores
+  - Suite de Pruebas Unitarias Robusta: Documentación y categorización de pruebas en PruebasUno.java, cubriendo casos de Caja Negra, Lógica de Decisión y manejo de Excepciones
  
 
 Estructura del repositorio
@@ -22,13 +27,23 @@ Estructura del repositorio
 - Eclipse -----> Archivos de entorno de desarrollo
 - JUEGO_DE_CARTAS_VERS2 --------> Codigo de la version 2
 - JUEGO_DE_CARTAS_VERS3 --------> Codigo de la version 3
-
+- JUEGO_DE_CARTAS_VERS3 --------> src/JUEGO_CARTAS_VERS4: Contiene el código fuente con la lógica del motor de juego y las entidades (Cartas, Jugadores, Reglas).
+                           |-----------------> Test/TestCompleto: Incluye PruebasUno.java con las validaciones de JUnit que aseguran que el juego sea estable y libre de errores lógicos
+                           |-------------> doc/: Carpeta autogenerada que contiene la API técnica del proyecto. Para visualizarla, abre el archivo index.html en cualquier navegador
 
   Caracteristicas
   - Juego de consola
   - Uso de programacion orientada a objetos
   - Implementacion de reglas del UNO
   - Codigo estructurado y mantenible
+  Version4
+  - Motor de Reglas Independiente: Separación de la lógica de validación mediante la clase RuleEngine, permitiendo un mantenimiento más sencillo de las reglas especiales
+  - Gestor de Turnos Bidireccional: Control avanzado de la dirección del juego mediante TurnManager, permitiendo el funcionamiento correcto de la carta Reversa en partidas de 2 a 4 jugadores
+  IA de Oponentes: Implementación de lógica automática para bots, permitiendo partidas 100% funcionales contra la computadora
+  - Manejo de Estados: Gestión visual y lógica del estado de la mesa, el mazo y la pila de descarte (DiscardPile)
+  - Mantenibilidad y Calidad
+  - Pruebas: Ejecuta PruebasUno.java como JUnit Test para verificar la integridad del código
+  - Documentación: Abre /doc/index.html para consultar la documentación técnica completa del proyecto
  
 
 Diagrama UML
@@ -40,6 +55,12 @@ Diagrama UML
 
 - v3
 ![Diagrama](https://github.com/user-attachments/assets/7192b1cb-340f-4a19-96d9-f77266b87ecf)
+
+
+
+- v4
+<img width="1730" height="1789" alt="UML_VERS4" src="https://github.com/user-attachments/assets/d5d22fff-1d4b-44ff-baf6-86356bf464ba" />
+
 
 
 
