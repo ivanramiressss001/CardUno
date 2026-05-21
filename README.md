@@ -77,6 +77,7 @@ Diagrama UML
   Integrantes
 
    - Aguilar Domínguez Leslie Joseline  
-   - García Quintero Ángel Antonio  
    - Pérez Copado Carmen Andrea  
    - Ramírez Gallardo Iván Enrique
+ 
+   
