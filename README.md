@@ -1,7 +1,3 @@
-Aquí tienes el texto actualizado y estructurado en formato Markdown, listo para que lo copies y pegues directamente en el archivo README.md de tu repositorio de GitHub.
-
-He corregido algunos detalles menores de ortografía (como "hecho" y "reglas del UNO") y agregué toda la documentación técnica de la nueva Versión 5 (Interfaz Gráfica - GUI), incluyendo la estructura de las pruebas y la ejecución del archivo .jar.
-
 CardUno
 Proyecto hecho en Java para la materia de Construcción y Evolución de Software.
 
