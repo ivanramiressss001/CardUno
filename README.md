@@ -64,6 +64,10 @@ Diagrama UML
 
 
 
+-Diamgrama GUI
+<img width="5847" height="9927" alt="DiagramaUMLvGUI" src="https://github.com/user-attachments/assets/9f1aadd4-13a7-499e-ab2b-48e566b2e4cc" />
+
+
  
   
   
