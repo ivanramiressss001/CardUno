@@ -1,26 +1,42 @@
-CardUno
-Proyecto hecho en Java para la materia de Construcción y Evolución de Software.
+CardUno Proyecto echo en Java para la materia de Construcción y Evolución de Software
 
 Evolución del proyecto
-Versión 1: Implementación básica del juego con funcionalidades simples.
 
-Versión 2: Se agregaron cartas especiales como reversa, salto, roba2, roba 4 y comodín.
+Version 1 Implementación básica del juego con funcionalidades simples
 
-Versión 3: Se realizó una refactorización del código, agregando:
 
-Soporte para 4 jugadores.
 
-Sistema de turnos dinámicos.
+Version 2 Se agregaron cartas especiales como reversa, salto, roba2, roba 4 y comodin.
 
-Mejor organización del código.
+Version 3 Se realizó una refactorización del código del código, agregando:
 
-Base para la inteligencia artificial básica.
+Soporte para 4 jugadorese
 
-Versión 4: * Documentación Técnica Profesional: Implementación integral del estándar Javadoc en todas las clases y métodos del sistema, eliminando las advertencias de compilación previas.
+Sistema de turnos dinámicos
 
-Cero Deuda Técnica: Refactorización de constructores y firmas de métodos para garantizar una arquitectura limpia y comprensible para futuros desarrolladores.
+Mejor organización del código
 
-Suite de Pruebas Unitarias Robusta: Documentación y categorización de pruebas en PruebasUno.java, cubriendo casos de Caja Negra, Lógica de Decisión y manejo de Excepciones.
+Base para la inteligencia artificial básica
+
+Versión 4
+
+Documentación Técnica Profesional: Implementación integral del estándar Javadoc en todas las clases y métodos del sistema, eliminando las 34 advertencias de compilación previas.
+
+Cero Deuda Técnica: Refactorización de constructores y firmas de métodos para garantizar una arquitectura limpia y comprensible para futuros desarrolladores
+
+Suite de Pruebas Unitarias Robusta: Documentación y categorización de pruebas en PruebasUno.java, cubriendo casos de Caja Negra, Lógica de Decisión y manejo de Excepciones
+
+Estructura del repositorio
+
+Eclipse -----> Archivos de entorno de desarrollo
+
+
+
+JUEGO_DE_CARTAS_VERS2 --------> Código de la versión 2
+
+JUEGO_DE_CARTAS_VERS3 --------> Código de la versión 3
+
+JUEGO_DE_CARTAS_VERS4 --------> src/JUEGO_CARTAS_VERS4: Contiene el código fuente con la lógica del motor de juego y las entidades (Cartas, Jugadores, Reglas). JUEGO_DE_CARTAS_VERS4-----------------> Test/TestCompleto: Incluye PruebasUno.java con las validaciones de JUnit que aseguran que el juego sea estable y libre de errores lógicos JUEGO_DE_CARTAS_VERS4-------------> doc/: Carpeta autogenerada que contiene la API técnica del proyecto. Para visualizarla, abra el archivo index.html en cualquier navegador
 
 Versión 5 (Actual - GUI): * Interfaz Gráfica de Usuario (GUI): Migración completa de consola a un entorno visual interactivo utilizando Java Swing.
 
@@ -32,14 +48,21 @@ IA Mejorada y Segura: Los bots interactúan en la interfaz gráfica con retrasos
 
 Consola de Eventos en Tiempo Real: Integración de un área de mensajes (JTextArea) que narra las jugadas, cambios de color y robos de cartas en vivo.
 
-Estructura del repositorio
-Eclipse -----> Archivos de entorno de desarrollo
+Características
 
-JUEGO_DE_CARTAS_VERS2 --------> Código de la versión 2
+Juego de consola
 
-JUEGO_DE_CARTAS_VERS3 --------> Código de la versión 3
+Uso de programación orientada a objetos
 
-JUEGO_DE_CARTAS_VERS4 --------> Contiene el código fuente con la lógica del motor de juego por consola y las entidades (Cartas, Jugadores, Reglas).
+Implementación de reglas de la ONU
+
+Código estructurado y mantenible Version4
+
+Motor de Reglas Independiente: Separación de la lógica de validación mediante la clase RuleEngine, permitiendo un mantenimiento más sencillo de las reglas especiales
+
+Gestor de Turnos Bidireccional: Control avanzado de la dirección del juego mediante TurnManager, permitiendo el funcionamiento correcto de la carta Reversa en partidas de 2 a 4 jugadores IA de Oponentes: Implementación de lógica automática para bots, permitiendo partidas 100% funcionales contra la computadora
+
+Manejo de Estados: Gestión visual y lógica del estado de la mesa, el mazo y la pila de descarte (DiscardPile)
 
 CONTRUCCION_Y_EVOLUCION (Versión GUI):
 
@@ -53,27 +76,13 @@ Test/TestGUI/ -----> Suite de pruebas unitarias (VentanaInicioTest.java, Ventana
 
 Doc/ -----> Carpeta autogenerada que contiene la API técnica completa del proyecto (Motor lógico y GUI).
 
-Características
-Entorno dual: Código escalable probado en consola y ahora completamente jugable mediante Interfaz Gráfica.
+Mantenibilidad y Calidad
 
-Uso estricto de Programación Orientada a Objetos (POO).
+Pruebas: Ejecuta PruebasUno.java como JUnit Test para verificar la integridad del código
 
-Implementación fiel de las reglas del UNO.
+Documentación: Abre /doc/index.html para consultar la documentación técnica completa del proyecto 
 
-Motor de Reglas Independiente: Separación de la lógica de validación mediante la clase RuleEngine, permitiendo un mantenimiento más sencillo de las reglas especiales.
 
-Gestor de Turnos Bidireccional: Control avanzado de la dirección del juego mediante TurnManager, permitiendo el funcionamiento correcto de la carta Reversa en partidas de 2 a 4 jugadores.
-
-IA de Oponentes: Implementación de lógica automática para 3 bots, permitiendo partidas 100% funcionales contra la computadora.
-
-Manejo de Estados: Gestión visual y lógica del estado de la mesa, el mazo y la pila de descarte (DiscardPile).
-
-Mantenibilidad, Calidad y Ejecución
-Pruebas Unitarias: Ejecuta los archivos dentro de la carpeta Test/ como JUnit Test para verificar la integridad de la lógica matemática y la instanciación de la Interfaz Gráfica.
-
-Documentación Javadoc: Abre Doc/index.html en cualquier navegador web para consultar la documentación técnica completa del proyecto.
-
-Ejecución del Juego: El proyecto cuenta con una versión compilada. Simplemente descarga y ejecuta el archivo UNO.jar con doble clic para iniciar la partida sin necesidad de abrir un entorno de desarrollo.
  
 
 Diagrama UML
